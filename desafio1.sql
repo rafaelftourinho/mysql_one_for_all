@@ -4,7 +4,7 @@ CREATE DATABASE IF NOT EXISTS SpotifyClone;
 CREATE TABLE SpotifyClone.plano (
 	plano_id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL,
-    preco DECIMAL(5,2) NOT NULL
+    preco DECIMAL(3,2) NOT NULL
 );
 
 INSERT INTO SpotifyClone.plano (nome, preco) VALUES
@@ -57,7 +57,7 @@ INSERT INTO SpotifyClone.album (album_nome, ano_lancamento, artista_id) VALUES
 ('Hot Space', 1982, 2),
 ('Falso Brilhante', 1998, 3),
 ('Vento de Maio', 2001, 3),
-('QVVJFA', 2003, 4),
+('QVVJFA?', 2003, 4),
 ('Somewhere Far Beyond', 2007, 5),
 ('I Put A Spell On You', 2012, 6);
 
