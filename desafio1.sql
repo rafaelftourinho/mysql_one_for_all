@@ -4,14 +4,14 @@ CREATE DATABASE IF NOT EXISTS SpotifyClone;
 CREATE TABLE SpotifyClone.plano (
 	plano_id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL,
-    preco DECIMAL(4,2) NOT NULL
+    preco DECIMAL(5,2) NOT NULL
 );
 
 INSERT INTO SpotifyClone.plano (nome, preco) VALUES
 ('gratuito', 0),
+('familiar', 7.99),
 ('universitario', 5.99),
-('pessoal', 6.99),
-('familiar', 7.99);
+('pessoal', 6.99);
 
 CREATE TABLE SpotifyClone.usuarios (
 	usuario_id INT PRIMARY KEY AUTO_INCREMENT,
