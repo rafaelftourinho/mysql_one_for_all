@@ -23,7 +23,7 @@ CREATE TABLE SpotifyClone.usuarios (
 );
 
 INSERT INTO SpotifyClone.usuarios (nome, idade, data_assinatura, plano_id) VALUES
-('Barbara Liskoy', 82, '2019-10-20', 1),
+('Barbara Liskov', 82, '2019-10-20', 1),
 ('Robert Cecil Martin', 58, '2017-01-06', 1),
 ('Ada Lovelace', 37, '2017-12-30', 2),
 ('Martin Fowler', 46, '2017-01-17', 2),
