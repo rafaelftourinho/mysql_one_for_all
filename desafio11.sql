@@ -8,9 +8,5 @@ SELECT
     WHEN m.musica LIKE '%SUPERSTAR%' THEN REPLACE(m.musica, 'SUPERSTAR', 'SUPERDEV')
   END as novo_nome
 FROM SpotifyClone.musicas AS m
-WHERE m.musica LIKE '%Bard%'
-  OR m.musica LIKE '%Amar%'
-  OR m.musica LIKE '%Pais'
-  OR m.musica LIKE '%SOUL%'
-  OR m.musica LIKE '%SUPERSTAR%'
+WHERE m.musica regexp 'Bard|Amar|Pais|SOUL|SUPERSTAR'
 ORDER BY m.musica DESC;
