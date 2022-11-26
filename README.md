@@ -37,7 +37,7 @@ Essa tabela não normalizada, foi normalizada e populada,onde foi executado quer
 
 ```bash
 # Clone o repositório
-  git clone git@github.com:marlondlacerda/mysql-one-for-all.git
+  git clone git@github.com:rafaelftourinho/mysql_one_for_all.git
 # Entre na pasta do repositório que você acabou de clonar:
   cd mysql-one-for-all
 # Instale as dependências e inicialize o projeto
